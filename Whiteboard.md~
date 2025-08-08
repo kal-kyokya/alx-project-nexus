@@ -1,20 +1,20 @@
 # Movie recommendation System/Algorithm
 
 ## Futtech:
-	**Video Recommendation System/Algorithm**
+	- Video Recommendation System/Algorithm
 ---
 
 ### Friday, 8th August 2025, 11:25 AM
 
 * What is the end goal of this 'feature'?
-<br />--> Generate a set of videos a user X will most likely be pleased to watch.
+--> Generate a set of videos a user X will most likely be pleased to watch.
 
 * Interesting. Where are the videos coming from?
-<br />--> There is a pool of videos from which we will extract the set.
+--> There is a pool of videos from which we will extract the set.
     I'm talking about all the uploaded content to Futtech.
 
 * 'all the uploaded content to Futtech' sounds a bit vague to me, care to clarify?
-<br />--> Yes, sure.
+--> Yes, sure.
     At the end of the day, every single bit of information associated with Futtech
 is to be stored in the project's database.
     'Everything will be stored or referenced inside the DB.'
@@ -26,7 +26,7 @@ is to be stored in the project's database.
 data storing structures.
 
 * Thanks for that. What mental model best represents this recommendation system?
-<br />--> At this point in the conversation, the 'black box' model looks completed.
+--> At this point in the conversation, the 'black box' model looks completed.
 	'INPUT ==> BLACK BOX ==> OUTPUT'
     We have defined where the data comes from and what data is expected, just gotta
 complete the model by discussing how exactly the input is used to generate the output.
