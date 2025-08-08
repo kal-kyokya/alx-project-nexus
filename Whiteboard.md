@@ -1,7 +1,7 @@
 # Movie recommendation System/Algorithm
 
 ## Futtech:
-	**Video Recommendation System/Algorithm**
+	Video Recommendation System/Algorithm
 ---
 
 ### Friday, 8th August 2025, 11:25 AM
