@@ -41,7 +41,8 @@
 	* Those with the greatest number of views.
 	* The most recently uploaded ones.
 	* Those with views/created_at ratios above a certain treshold (Rising stars)
-<br />```2 of each should yield 10 videos to be recommended to the user by this system.```
+
+```2 of each should yield 10 videos to be recommended to the user by this system.```
 <br />    This works best for large datasets though. Hard to get a varied answer with a DB that has, say 20 videos and similar ratings and/or likes.
 
 * Huuum, that's a detailed answer right there. Anything else you'd like to say?
