@@ -23,7 +23,7 @@
 	* A cache (Redis, reduce DB hits)
 	* The Database
 
-So yeah, the set of recommended videos will be extracted from this trio of data storing structures.
+    So yeah, the set of recommended videos will be extracted from this trio of data storing structures.
 
 * Thanks for that. What mental model best represents this recommendation system?
 <br />--> At this point in the conversation, the 'black box' model looks completed.
