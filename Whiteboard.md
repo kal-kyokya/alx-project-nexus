@@ -51,8 +51,7 @@
 <br />    The set of recommended videos can be dependent on the attributes associated with the Video model or the User model. What I described previously is a video-based. The alternative would be a set of videos selected off of the types of videos a particular user liked, rated, viewed or created.
 <br />    In something of a philosophical sense, one is about providing the user with 'the best the world has to offer', while the other is about 'that which matches your personality and character'.
 <br />    Objective and Subjective realities, innit?
-
-<br />    In the initial stages of development, I will stick to the 'Objective' approach, a single set of recommended videos for every user that is computed daily.
+<br />    **Note:** In the initial stages of development, I will stick to the 'Objective' approach, a single set of recommended videos for every user that is computed daily.
 <br />    Once the Futtech has enough videos and/or users, I will consider satisfying each user with targeted and well curated sets.
 
 ---
