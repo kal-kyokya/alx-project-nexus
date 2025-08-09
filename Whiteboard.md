@@ -22,7 +22,7 @@
 	* A CDN (Same thing as Object Storage?)
 	* A cache (Redis, reduce DB hits)
 	* The Database
-<br />    So yeah, the set of recommended videos will be extracted from this trio of data storing structures.
+<br />So yeah, the set of recommended videos will be extracted from this trio of data storing structures.
 
 * Thanks for that. What mental model best represents this recommendation system?
 <br />--> At this point in the conversation, the 'black box' model looks completed.
@@ -34,33 +34,23 @@
 ### Saturday, 9th August 2025, 11:48 AM
 
 * The 'black box' model, interesting. What's your guess on its operating principles?
-<br />--> I believe usage of DB fields; Rating, Likes, Views, Created at will facilitate
-creation of a filtering criteria that will extract a different set of X items from the
-Video model each time.
-    I'm thinking of a set comprising of:
+<br />--> I believe usage of DB fields; Rating, Likes, Views, Created at will facilitate creation of a filtering criteria that will extract a different set of X items from the Video model each time.
+<br />    I'm thinking of a set comprising of:
 	* The highest-rated videos.
 	* The most liked ones.
 	* Those with the greatest number of views.
 	* The most recently uploaded ones.
 	* Those with views/created_at ratios above a certain treshold (Rising stars)
-    2 of each should yield 10 videos to be recommended to the user by this system.
-    This works best for large datasets though. Hard to get a varied answer with a DB
-that has, say 20 videos and similar ratings and/or likes.
+<br />2 of each should yield 10 videos to be recommended to the user by this system.
+<br />    This works best for large datasets though. Hard to get a varied answer with a DB that has, say 20 videos and similar ratings and/or likes.
 
 * Huuum, that's a detailed answer right there. Anything else you'd like to say?
-<br />--> Without putting too much thought into it, I think of two types of recommendation
-systems; video-based & user-centered.
-    The set of recommended videos can be dependent on the attributes associated with
-the Video model or the User model. What I described previously is a video-based. The
-alternative would be a set of videos selected off of the types of videos a particular
-user liked, rated, viewed or created.
-    In something of a philosophical sense, one is about providing the user with
-'the best the world has to offer', while the other is about 'that which matches your
-personality and character'.
-    Objective and Subjective realities, innit?
+<br />--> Without putting too much thought into it, I think of two types of recommendation systems; video-based & user-centered.
+<br />    The set of recommended videos can be dependent on the attributes associated with the Video model or the User model. What I described previously is a video-based. The alternative would be a set of videos selected off of the types of videos a particular user liked, rated, viewed or created.
+<br />    In something of a philosophical sense, one is about providing the user with 'the best the world has to offer', while the other is about 'that which matches your personality and character'.
+<br />    Objective and Subjective realities, innit?
+<br />
+<br />    In the initial stages of development, I will stick to the 'Objective' approach, a single set of recommended videos for every user that is computed daily.
+<br />    Once the Futtech has enough videos and/or users, I will consider satisfying each user with targeted and well curated sets.
 
-    In the initial stages of development, I will stick to the 'Objective' approach,
-a single set of recommended videos for every user that is computed daily.
-    Once the Futtech has enough videos and/or users, I will consider satisfying each
-user with targeted and well curated sets.
 ---
