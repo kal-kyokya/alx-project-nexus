@@ -1,6 +1,7 @@
 # Project Nexus Documentation
 
-The project itself is to be found in [this repository](https://github.com/kal-kyokya/Futtech) and the link to the deployed app is [here](https://futtech.kalkyokya.tech/about).<br/>
+**Repository:** [Futtech](https://github.com/kal-kyokya/Futtech).<br/>
+**Deployed App:** [Futtech by Jean-Paul KYOKYA](https://futtech.kalkyokya.tech/about).<br/>
 This Project is a GitHub repository dedicated to documenting major learnings from the ProDev Backend Engineering program. This repository serves as a knowledge hub, showcasing understanding of **backend engineering** ```concepts```, ```tools```, and ```best practices``` acquired throughout the program.
 
 ## Project Objective
